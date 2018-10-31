@@ -20,10 +20,10 @@ body{
 
 /* Header Section */
 header{
-    background-color: #2c3e50;
+    background-color: #363537;
     color: white;
     min-height: 7rem;
-    border-bottom: #e17055 3px solid;
+    border-bottom: #DD403A 3px solid;
 }
 
 
@@ -45,7 +45,7 @@ nav{
 }
 
 span{
-    color: #e17055;
+    color: #DD403A;
 }
 
 nav ul {
@@ -62,7 +62,7 @@ nav ul {
  }
 
  nav a:hover{
-     color: #e17055;
+     color: #DD403A;
  }
 
 
@@ -104,7 +104,7 @@ nav ul {
  .newsletter{
      padding: 1.5rem;
      color: white;
-     background-color: #2c3e50;
+     background-color: #363537;
  }
 
 
@@ -121,7 +121,7 @@ nav ul {
  .button1{
      border: none;
      color: white;
-     background-color: #e17055;
+     background-color: #DD403A;
      padding: 1rem 2rem;
      font-size: .9rem;
  }
@@ -148,7 +148,7 @@ nav ul {
 }
 
 .box i{
-    color: #2c3e50;
+    color: #DD403A;
 }
 
 .box h3{
@@ -166,7 +166,7 @@ nav ul {
 footer{
     margin-top: 5rem;
     color: white;
-    background-color: #e17055;
+    background-color: #DD403A;
     min-height: 5rem;
     display: flex;
     justify-content: center;
