@@ -172,3 +172,64 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+
+/* Media Queries for Mobile */
+
+
+@media(max-width: 768px) {
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav .logo{
+        padding-bottom: 1.5rem;
+    }
+
+    .showcase{
+        text-align: center;
+    }
+
+    .showcase h1{
+        font-size: 3.8rem;
+        margin-top: 3rem;
+    }
+
+    .showcase p{
+        padding-top: 3.5rem;
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter h1{
+        padding-bottom: 1.5rem;
+        
+    }
+
+    .button1{
+        margin-top: 1.5rem;
+    }
+
+
+    .grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: (25rem, auto);
+        grid-gap: 3rem;
+    }
+
+
+
+
+}
